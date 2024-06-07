@@ -1,0 +1,126 @@
+@import url("./animations.css");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55?styles=15994,30124,15999,30131");
+/* @import url("https://fonts.cdnfonts.com/css/product-sans"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F9F9F9];
+    @apply tracking-[0px];
+    @apply text-primary;
+    @apply font-Helvetica;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .stripes {
+    background: repeating-linear-gradient(
+      130deg,
+      #ffffff,
+      #ffffff 2.5px,
+      #eeeeee 2px,
+      #eeeeee 4px
+    );
+  }
+
+  .animate-fade {
+    animation: fadeIn 0.4s ease-in-out;
+  }
+
+  .pending-status {
+    @apply text-[#FFBA00] border-[#FFBA00];
+  }
+  .gray-status {
+    @apply text-[#989898] border-[#989898];
+  }
+  .success-status {
+    @apply text-[#1ECC40] border-[#1ECC40];
+  }
+
+  .sky-status {
+    @apply text-[#009DFF] border-[#009DFF];
+  }
+
+  .orange-status {
+    @apply bg-orangeStatus text-active border-active;
+  }
+  .error-status {
+    @apply text-[#FF5A5A] border-[#FF5A5A];
+  }
+
+  .pale-status {
+    @apply text-[#5F5F5F] border-[#5F5F5F];
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .default-custom-table th {
+    @apply px-4;
+  }
+  .default-custom-table td {
+    @apply px-8;
+  }
+}
+
+.logs-span:last-child .sub-span {
+  display: none;
+}
+
+/* CHECKBOX STYLES */
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  display: flex;
+}
+
+.checkbox-container input[type="checkbox"] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-container label::before {
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  /* border-radius: 50%; */
+  margin-top: 2px;
+  margin-right: 4px;
+  border: 1px solid #d4e4f2;
+}
+
+.checkbox-container input[type="checkbox"]:checked + label::before {
+  content: "\2713";
+  /* transform: rotate(10deg); */
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  background-color: #2c3a5c;
+  border: 1px solid #2c3a5c;
+}

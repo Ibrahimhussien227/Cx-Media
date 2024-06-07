@@ -1,0 +1,64 @@
+{
+  "sidebar": {
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "notifications": {
+      "title": "Notifications"
+    },
+    "userAccounts": {
+      "title": "User Accounts"
+    },
+    "campaigns": {
+      "title": "Campaigns"
+    },
+    "payouts": {
+      "title": "Payouts"
+    },
+    "financials": {
+      "title": "Financials"
+    },
+    "financialsPayout": {
+      "title": "Campaign Payouts"
+    },
+    "financialsAll": {
+      "title": "All Transactions"
+    },
+    "applications": {
+      "title": "Applications"
+    },
+    "administrators": {
+      "title": "Administrators"
+    },
+    "settings": {
+      "title": "Settings"
+    },
+    "allUsers": {
+      "title": "All Users"
+    },
+    "listingApplications": {
+      "title": "Listing Applications"
+    },
+    "investors": {
+      "title": "Investors"
+    },
+    "sellers": {
+      "title": "Sellers"
+    },
+    "campaignManagers": {
+      "title": "Campaign Managers"
+    },
+    "allCampaigns": {
+      "title": "All Campaigns"
+    },
+    "transfers": {
+      "title": "Transfers"
+    },
+    "transfersWindow": {
+      "title": "Transfer Windows"
+    },
+    "transfersTrades": {
+      "title": "Trades"
+    }
+  }
+}
