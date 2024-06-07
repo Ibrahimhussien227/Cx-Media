@@ -1,0 +1,143 @@
+{
+  "PropertyCard": {
+    "availableShares": "AVAILABLE SHARES",
+    "annualizedReturn": "ANNUALIZED RETURN",
+    "annualizedAppreciatiom": "ANNUALIZED APPRECIATION",
+    "projectGrossYield": "PROJECTED GROSS YIELD",
+    "projectNetYield": "PROJECTED NET YIELD",
+    "minInvest": "Min. INV.",
+    "view": "View",
+    "loginOrRegisterText": "Login or register to view campaign details and invest.",
+    "login": "Let's Go",
+    "cardStatusAvailable": "AVAILABLE",
+    "cardStatusFunded": "FUNDED"
+  },
+  "InvestorDashboardPage": {
+    "sidebar": {
+      "explore": {
+        "title": "EXPLORE",
+        "to": "/explore",
+        "type": "available"
+      },
+      "porgolio": {
+        "title": "PORTFOLIO",
+        "to": "/portfolio"
+      },
+      "transfers": {
+        "title": "TRANSFERS",
+        "to": "/tansfers"
+      },
+      "notifications": {
+        "title": "NOTIFICATIONS",
+        "to": "/notifications"
+      },
+      "support": {
+        "title": "SUPPORT",
+        "to": "/support"
+      },
+      "copyright": "Copyright © 2023. WealthPixels LLC. All Rights Reserved."
+    },
+    "explorePage": {
+      "available": "AVAILABLE",
+      "funded": "FUNDED",
+      "exited": "EXITED",
+      "searchPlaceHolder": "Enter property name, type, or location…",
+      "clearSearch": "Clear",
+      "filterSortBy": "SORT BY",
+      "filterSortLow": "Property Value: Low to Highs",
+      "filterSortHight": "Property Value: High to Low"
+    },
+    "portfolioPage": {
+      "profile": {
+        "title": "PROFILE",
+        "to": "/portfolio/profile"
+      },
+      "investments": {
+        "title": "INVESTMENTS",
+        "to": "/portfolio/investments"
+      },
+      "listing": {
+        "title": "LISTING",
+        "to": "/portfolio/listing"
+      },
+      "insights": {
+        "title": "INSIGHTS",
+        "to": "/portfolio/insights"
+      },
+      "statusCard": {
+        "name": "NAME",
+        "status": "STATUS",
+        "profileCompletion": "PROFILE COMPLETION",
+        "annualInvestmentStatus": "ANNUAL INVESTMENT STATUS",
+        "investorId": "INVESTOR ID",
+        "lastUpdate": "LAST UPADE"
+      },
+      "limitCard": {
+        "title": "Invest without limits",
+        "description": "Complete our professional investor application and invest without limits."
+      },
+      "manageProfileCard": {
+        "title": "Manage your Investor Profile",
+        "description": "Your investor profile helps us personalize your experience and remain compliant. You can update this information at any time.",
+        "investorName": "INVESTOR NAME",
+        "investorTips": "Enter your full legal name as mentioned in your valid identity proof document.",
+        "dropdown": {
+          "residence": {
+            "title": "RESIDENCE TYPE",
+            "tips": "Select your residence type based on the available options."
+          },
+          "address": {
+            "title": "ADDRESS LINE 1",
+            "tips": "Enter the building number, building name and street/area name for the selected residence type."
+          },
+          "country": {
+            "title": "COUNTRY",
+            "tips": "Select the country in which your residence is located."
+          },
+          "city": {
+            "title": "CITY",
+            "tips": "Select the city in which your residence is located."
+          },
+          "addressProofType": {
+            "title": "ADDRESS PROOF TYPE",
+            "tips": "Select the document that you will be uploading as the address proof based on the available options."
+          },
+          "addressProofUpload": {
+            "title": "UPLOAD ADDRESS PROOF",
+            "tips": "Upload your address proof document in pdf, png or jpeg format. Maximum 10 MB."
+          },
+          "employmentType": {
+            "title": "EMPLOYMENT TYPE",
+            "tips": "Select your employment type based on the available options."
+          },
+          "companyName": {
+            "title": "COMPANY NAME",
+            "tips": "Enter the name of the company that employs you."
+          }
+        }
+      }
+    },
+    "investmentsPage": {
+      "propertyName": "PROPERTY NAME",
+      "investment": "INVESTMENT",
+      "txStatus": "TX STATUS",
+      "campaignStatus": "CAMPAIGN STATUS",
+      "rentalEarnings": "RENTALEARNINGS",
+      "saleEarnings": "SALE EARNINGS"
+    },
+    "listingPage": {
+      "propertyName": "PROPERTY NAME",
+      "listingValue": "LISTING VALUE",
+      "txStatus": "TX STATUS",
+      "listingStatus": "LISTING STATUS",
+      "transferTimestamp": "TRANSFER TIMESTAMP"
+    },
+    "insightsPage": {
+      "title": "My Earnings",
+      "description": "Net. earnings across all investments. YTD.",
+      "rentalYield": "RENTAL YIELD",
+      "propertySale": "PROPERTY SALE",
+      "shareListingSales": "SHARE LISTING SALES"
+    }
+  }
+}

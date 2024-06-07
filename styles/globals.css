@@ -1,0 +1,319 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ProductSans";
+  font-style: bold;
+  font-weight: 700;
+  src: url("/fonts/ProductSans/Bold/Product Sans Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ProductSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ProductSans/Regular/Product Sans Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "MinionPro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/MinionPro/MinionPro-Regular.ttf") format("truetype");
+}
+
+MinionPro-Regular * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FFFAF8] font-ProductSans text-[#2C3A5C];
+  }
+}
+
+@layer utilities {
+  input {
+    @apply focus:outline-none;
+  }
+  .gradient {
+    background: transparent
+      linear-gradient(180deg, #ffffff 0%, var(---fffaf8) 100%);
+  }
+  .bg-gradient {
+    background: transparent linear-gradient(90deg, #ffffff 0%, #fffaf8 100%);
+  }
+
+  .bg-gradient:hover {
+    background-color: white;
+    @apply bg-white;
+  }
+
+  .bg-ver {
+    background: transparent linear-gradient(180deg, #fffaf8 0%, #ffffff 100%);
+  }
+  .bg-bot {
+    background: transparent linear-gradient(180deg, #ffffff 0%, #fffaf8 100%);
+  }
+  .gradient-orange {
+    background: linear-gradient(#ff6c02, #ffffff);
+  }
+
+  .default-custom-table td {
+    @apply border-t border-b first:border-l last:border-l last:border-t-[0px] last:border-b-[0px];
+  }
+
+  .no-border {
+    @apply border-none;
+  }
+
+  .pending-status {
+    @apply text-[#FFBA00] border-[#FFBA00];
+  }
+
+  .success-status {
+    @apply text-[#1ECC40] border-[#1ECC40];
+  }
+
+  .sky-status {
+    @apply text-[#009DFF] border-[#009DFF];
+  }
+
+  .orange-status {
+    @apply bg-orangeStatus text-active border-active;
+  }
+  .error-status {
+    @apply text-[#FF5A5A] border-[#FF5A5A];
+  }
+
+  .violet-status {
+    @apply text-[#5A6A93] border-[#5A6A93];
+  }
+
+  .pending-status {
+    @apply text-[#FFBA00] border-[#FFBA00];
+  }
+
+  .success-status {
+    @apply text-[#1ECC40] border-[#1ECC40];
+  }
+
+  .sky-status {
+    @apply text-[#009DFF] border-[#009DFF];
+  }
+
+  .orange-status {
+    @apply bg-orangeStatus text-active border-active;
+  }
+  .error-status {
+    @apply text-[#FF5A5A] border-[#FF5A5A];
+  }
+
+  .pale-status {
+    @apply text-[#5F5F5F] border-[#5F5F5F];
+  }
+
+  .green-prograss-bar {
+    @apply bg-gradient-to-r from-[#12EF9000] via-emerald-300 to-[#12EF90];
+  }
+
+  .orange-prograss-bar {
+    @apply bg-gradient-to-r from-[#ffffff] via-active to-active !important;
+  }
+  .red-prograss-bar {
+    @apply bg-gradient-to-r from-[#ffffff] via-[#FF5A5A] to-[#FF5A5A];
+  }
+  .sky-prograss-bar {
+    @apply bg-gradient-to-r from-[#ffffff] via-[#0093FF] to-[#0093FF] !important;
+  }
+  .violet-prograss-bar {
+    @apply bg-gradient-to-r from-[#ffffff] via-[#9F83FF] to-[#9F83FF] !important;
+  }
+
+  .yellow-prograss-bar {
+    @apply bg-gradient-to-r from-[#ffffff] via-[#FFBA00] to-[#FFBA00] !important;
+  }
+
+  .teal-prograss-bar {
+    @apply from-[#ffffff] via-[#00B8BF] to-[#00B8BF];
+  }
+  .bg-gradient-white-transparent {
+    @apply bg-gradient-to-r from-white to-[#FFFAF8] hover:to-white;
+  }
+  p {
+    @apply tracking-[1.5px];
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  /* Hide submit button by default */
+  .verifyForm button[type="submit"] {
+    visibility: hidden;
+  }
+
+  /* Show submit button when any input has a value */
+  /* .verifyForm
+    input:not(:placeholder-shown)
+    + input:not(:placeholder-shown)
+    + button[type="submit"] {
+    visibility: visible;
+  } */
+
+  /* Show the submit button when any input has a value */
+  .verifyForm:has(input:not(:placeholder-shown))
+    > div
+    div
+    button[type="submit"] {
+    visibility: visible;
+  }
+
+  .verifyForm:has(textArea:not(:placeholder-shown))
+    > div
+    div
+    button[type="submit"] {
+    visibility: visible;
+  }
+
+  input[type="range"]::-webkit-slider-thumb {
+    pointer-events: auto;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #d4e4f2;
+    -webkit-appearance: none;
+    @apply bg-white appearance-none
+
+    /* @apply w-6 h-6 appearance-none pointer-events-auto; */;
+  }
+
+  /* ChECK GROUP CHECKBOX STYLES */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-container label {
+    cursor: pointer;
+    display: flex;
+  }
+
+  .checkbox-container input[type="checkbox"] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+  }
+
+  .checkbox-container label::before {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 4px;
+    border: 1px solid #d4e4f2;
+  }
+
+  .checkbox-container input[type="checkbox"]:checked + label::before {
+    content: "\2713";
+    transform: rotate(10deg);
+    font-size: 13px;
+    font-weight: 900;
+    color: #65f3a6;
+    background-color: white;
+  }
+
+  /* GENERAL CHECKBOX STYLES */
+  .container {
+    display: block;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  /* Create a custom checkbox */
+  .checkmark {
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    outline: 1px solid #d4e4f2;
+  }
+
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    content: "\2713";
+    transform: rotate(10deg);
+    font-size: 13px;
+    font-weight: 900;
+    color: #65f3a6;
+  }
+
+  /* SPINNER STYLES */
+  .spinner {
+    /*   for centering div */
+    position: relative;
+
+    /* transform: translate(-50%, -50%); */
+
+    /*   spinner div css */
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    /*   background-color : red; */
+    border: 6px solid #ccc;
+    border-top-color: #ff6c02;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
