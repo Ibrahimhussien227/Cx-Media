@@ -1,0 +1,349 @@
+{
+  "sidebar": {
+    "campaigns": {
+      "title": "CAMPAIGNS",
+      "to": "/campaigns"
+    },
+    "team": {
+      "title": "TEAM",
+      "to": "/team"
+    },  
+    "notifications": {
+      "title": "NOTIFICATIONS",
+      "to": "/notifications"
+    },
+    "support": {
+      "title": "SUPPORT",
+      "to": "/support"
+    },
+    "account": {
+      "title": "ACCOUNT",
+      "to": "/account"
+    },
+    "copyright": "Copyright © 2024. WealthPixels LLC. All Rights Reserved.",
+    "sidebarAccount": {
+      "sellerAdmin": "Seller Admin",
+      "contentOne": "Please complete the application process in order to gain full access to the system.",
+      "contentTwo": "If you require any assistance, please visit our",
+      "contentThere": "You can also send an enquiry to sellers@we.properties",
+      "helpCenter": "Help Center."
+    }
+  },
+  "campaignsPage": {
+    "title": "Campaigns",
+    "campaignListing": "Campaign Listing Application.",
+    "campaignsContent": " Please complete the steps to list your campaign.",
+    "createCampaign": "CREATE CAMPAIGN",
+    "createCampaignTitle": "Create a Campaign",
+    "createCampaignContent": "You have not created any campaigns yet. Create your first campaign now.",
+    "create": "CREATE",
+    "cancel": "CANCEL",
+    "getStarted": "Let's get Started.",
+    "content": " Enter a name for your property mentioning the number of rooms, the type of property and the general location of your property. For example; 3 Bedroom Villa in Business Bay, Studio Apartment in Greens, 4 Bedroom Townhouse in Jumeirah Village, etc. You can always edit this later up until the point your campaign is published.",
+    "propertyName": "PROPERTY NAME",
+    "placeholder": "Eg; 4 Bedroom Townhouse in Jumeirah Village",
+    "search": "SEARCH",
+    "sortBy": "SORT BY",
+    "listing": {
+      "searchPlaceholder": "Enter property name, type, or location…",
+      "unpublished": "unpublished",
+      "published": "Published",
+      "funded": "FUNDED"
+    },
+    "noPublishedCampaigns": "You have not published any campaigns yet.",
+    "noFundedCampaigns": "None of your campaigns have completed funding yet",
+    "fundedCampaign": {
+      "logsTitle": "Campaign Logs",
+      "propertyValuation": "PROPERTY VALUATION",
+      "sharePrice": "SHARE PRICE",
+      "minimumInvestment": "minimum Investment"
+    },
+    "publishedCampaign": {
+      "logsTitle": "Campaign Logs",
+      "dashboard": "dashboard",
+      "settings": "settings",
+      "refundNotice": "Important Notice",
+      "refundNoticeDesc": "You have only one day remaining for your campaign and more than 25% of your shares are yet to be sold. As per our policy, if the minimum target is not achieved by the end of the campaign, then all the investors will be refunded. You can choose to extend the campaign or confirm the refund to investors.",
+      "refundInvestors": "REFUND INVESTORS",
+      "refundInvestorsQ": "Refund Investors?",
+      "refundConfirmed": "Refund Confirmed.",
+      "refundInvestorsDesc": "Are you sure you want to refund all investors? If you proceed, the campaign will be cancelled and investors will be refunded at the end date of the campaign.",
+      "refundConfirmedDesc": "Your request to cancel the campaign is confirmed. All investments that are being processed will be reversed and investors will be refunded on the end date specified for the campaign.",
+      "cancel": "CANCEL",
+      "ok": "OK",
+      "proceedRefund": "Yes, Proceed",
+      "propertyValuation": "PROPERTY VALUATION",
+      "sharePrice": "SHARE PRICE",
+      "minimumInvestment": "minimum Investment",
+      "moreTime": "Need More time?",
+      "extendDuration": "You can extend the duration of your campaign to give you an opportunity to attract more investors.",
+      "addDays": "add 15 Days | AED 250",
+      "wantToChange": "Want to change something?",
+      "changeInstruction": "If you need to update some details on your campaign, then please reach out to our support team via the ",
+      "helpCenter": "help center."
+       },
+    "campaignReview": {
+      "title": "Submit Application for Review.",
+      "content": "Our team will review your submission and get back to you within 24-48 hours.",
+      "submit": "Submit",
+      "tryAgain": "TRY AGAIN"
+    },
+    "feePayment": {
+      "title": "Pay Listing Fee of AED 200.00",
+      "content": "Please complete the payment of the listing fee to proceed with publishing your campaign.",
+      "info": "The receipt for your payment has been sent to your registered email.",
+      "downloadReceipt": "DOWNLOAD RECEIPT"
+    },
+    "publishCampaign": {
+      "title": "Publish your campaign.",
+      "content": "Publish your campaign now or schedule it for later.",
+      "published": "Your campaign was published on ",
+      "publish": "PUBLISH NOW",
+      "schedule": "Schedule",
+      "tryAgain": "TRY AGAIN"
+    },
+    "modalDetail": {
+      "getStarted": "get Started.",
+      "getStartedContent": "Enter a name for your property mentioning the number of rooms, the type of property and the general location of your property. For example; 3 Bedroom Villa in Business Bay, Studio Apartment in Greens, 4 Bedroom Townhouse in Jumeirah Village, etc. You can always edit this later up until the point your campaign is published.",
+      "propertyName": "PROPERTY NAME",
+      "getStartedContentPlaceholder": "Eg; 4 Bedroom Townhouse in Jumeirah Village,",
+      "cancel": " CANCEL",
+      "createNewCampaign": " CREATE A NEW CAMPAIGN"   
+    },
+    "amenitiesForm": {
+      "label": "AMENITIES",
+      "amenitiesContent": "Select the amenities available at or near the property."
+    },
+    "commercialsForm": {
+      "propertyPrice": "PROPERTY SELLING PRICE",
+      "propertyPricePlaceholder": "Enter Property Selling Price",
+      "propertyPriceContent": "Enter the current selling price of the property rounded to two decimal places.",
+      "projectedAnnualizedReturn": "PROJECTED ANNUALIZED RETURN",
+      "projectedAnnualizedReturnPlaceholder": "Enter Projected Annualized Return",
+      "projectedAnnualizedReturnContent": "Enter the projected annualized return of the property rounded to two decimal places.",
+      "projectedAnnualAppreciation": "PROJECTED ANNUAL APPRECIATION",
+      "projectedAnnualAppreciationPlaceholder": "Enter Projected Annual Apprecia…",
+      "projectedAnnualAppreciationContent": "Enter the projected annual appreciation of the property rounded to two decimal places.",
+      "projectedGrossYield": "PROJECTED GROSS YIELD",
+      "projectedGrossYieldPlaceholder": "Enter Projected Gross Yield",
+      "projectedGrossYieldContent": "Enter the projected gross yield of the property rounded to two decimal places.",
+      "projectedNetYield": "PROJECTED NET YIELD",
+      "projectedNetYieldPlaceholder": "Enter Projected Net Yield",
+      "projectedNetYieldContent": "Enter the projected net yield of the property rounded to two decimal places."
+    },
+    "documentsForm": {
+      "titleDeedFile": "TITLE DEED",
+      "titleDeedFilePlaceholder": "Upload Property Title Deed",
+      "titleDeedFileContent": " Upload a valid title deed for the property.Note: This will not be visible to the public.",
+      "valuationReportFile": "VALUATION REPORT",
+      "valuationReportFilePlaceholder": "Upload Property Valuation Report",
+      "valuationReportFileContent": "Upload a valuation report for the property.",
+      "rentalContractsFile": "RENTAL CONTRACTS",
+      "rentalContractsFilePlaceholder": "Upload Rental Contracts",
+      "rentalContractsFileContent": " Upload the rental contracts for the last 3 years as a single document. This field is only mandatory if the property has existed for more than 3 years. Note: This will not be visible to the public.",
+      "projectionReportFile": "PROJECTIONS",
+      "projectionReportFilePlaceholder": "Upload Projections",
+      "projectionReportFileContent": "upload the projections for this property.",
+      "projectionReportFileSubContent": "Please use the template provided.",
+      "downloadTemplate": "Download Template",
+      "otherDocuments": "OTHER DOCUMENTS",
+      "addDocument": "ADD DOCUMENT",
+      "otherDocumentsContent": "Upload any additional documents required to support your listing application.Note: This will not be visible to the public."
+    },
+    "propertyAddressForm": {
+      "propertyAddress": "PROPERTY ADDRESS",
+      "propertyAddressPlaceholder": "Address Line 1",
+      "propertyAddressContent": "Enter the complete address of the property.",
+      "addressLine2": "Address Line 2 (Optional)",
+      "selectCountry": "Select Country",
+      "select": "Select",
+      "selectCity": "Select City",
+      "selectArea": "Select Area",
+      "geoLocation": "GEO LOCATION",
+      "geoLocationPlaceholder": "Search location or pin on map."
+    },
+    "propertyForm": {
+      "propertyName": "PROPERTY NAME",
+      "propertyNamePlaceholder": "Enter Property Name",
+      "propertyNameContent": "The name must mention the number of rooms, property type, and location.",
+      "propertyDescription": "PROPERTY DESCRIPTION",
+      "propertyDescriptionPlaceholder": "Enter Property Description",
+      "propertyDescriptionContent": "Enter a brief description for the property within 5000 characters.",
+      "propertyId": "PROPERTY ID",
+      "propertyIdPlaceholder": "Enter Property ID",
+      "propertyIdContent": "Enter the property ID as it appears on the valid title deed for the property.",
+      "propertyType": "PROPERTY TYPE",
+      "propertyTypeContent": "Select the relevant property type.",
+      "propertyTypesubContent": "Specify the number of bedrooms and bathrooms in this property.",
+      "propertyArea": "PROPERTY AREA",
+      "propertyAreaPlaceholder": "Enter Property Area",
+      "propertyAreaContent": "This is a short description of the value that needs to be entered in the numeric field.",
+      "investmentType": "INVESTMENT TYPE",      
+      "investmentTypeContent": "Select the relevant investment type."
+    },
+    "propertyImagesForm": {
+      "propertyGallery": "PROPERTY GALLERY",     
+      "propertyGalleryContent": "Add images for your property.",
+      "propertyGallerySubContent": "You must add a minimum of 11 images.",
+      "propertyGalleryNote": "As a compliance requirement, we request you to add 3 images that only show the general exterior view of the property/community/vicinity. These images MUST NOT show the interior view of the property.",
+      "setThumbnail": "Set as thumbnail"
+    }
+  },
+  "accountPage": { 
+    "nav": {
+      "profileTitle": "Seller Profile.",
+      "profileDesc": "View details on your seller account.",
+      "verificationTitle": "Verify your Account.",
+      "verificationDesc": "Your KYC is up to date.",
+      "paymentsTitle": "Payments",
+      "paymentsDesc": "View all your payments",
+      "settingsTitle": "Configure Security & Settings",
+      "settingsDesc": "Customize your experience."
+    },
+    "title": "My Account",
+    "content" : " Your seller profile helps us personalize your experience and remain compliant.",
+    "submit": "Submit",
+    "payNow": "Pay Now",
+    "verifyNow": "Verify Now",
+    "KYCVerificationContent": "  KYC Verification is powered by ShuftiPro. At WeProperties, we maintain the highest levels of security when dealing with your sensitive data. To find out more about how we manage your data and privacy, please see our",
+    "privacyPolicy":"Privacy Policy.",
+    "applyPage": {
+      "title": "Apply as a Seller",
+      "content": "Please select your preferred option to proceed.",
+      "subContent": "You cannot change your selection later.",
+      "proprietor": "I am a Sole Proprietor.",
+      "business": "I represent a Business.",
+      "proprietorContent": " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, mi sit amet venenatis pellentesque.",
+      "learnMore": "Learn More.",
+      "ApplyNow": "APPLY NOW"
+    },
+    "detailsPage": {
+      "title": "Seller Application.",
+      "content": "Please complete the steps to apply as a "
+    },
+    "companyInformationPage": {
+      "title": "Company Information.",
+      "content": "Please provide the following details about you company. All fields are mandatory.",
+      "titleRepresentative": "Company Representative Details.",
+      "contentRepresentative": "Please provide the following details related to a registered signatory of the company like the GM, CEO, or Director."
+    },
+    "feePaymentPage": {
+      "title": "Pay Application Fee of AED",
+      "content": "Please complete the payment of the application fee to complete the registration.",
+      "modalTitle": "Congratulations!",
+      "modalDesc": "Your payment was successful. You are all set now to start your first crowdfunding campaign on We Properties. Good Luck!",
+      "modalBtn": "Let's Go"
+    },
+    "personalIdVerificationPage": {
+      "title": " Verify your Identity.",
+      "content": "Please complete the KYC verification of the property owner."
+    }
+  },
+  "formDetail" : {
+    "profileForm": {
+      "profilePicture": "PROFILE PICTURE",
+      "fullLegalName": "FULL LEGAL NAME",
+      "dateBirth": "DATE OF BIRTH",
+      "idDocumentType": "ID DOCUMENT TYPE",
+      "idDocumentNumber": "ID DOCUMENT NUMBER",
+      "idDocumentCopy": "ID DOCUMENT COPY",
+      "address": "ADDRESS"
+    },  
+    "companyInformationForm": {
+      "companyName": "COMPANY NAME",
+      "address": "ADDRESS",
+      "taxId": "TAX ID",
+      "employeeCount": "EMPLOYEE COUNT",
+      "tradeLicenseCopy": "TRADE LICENSE COPY",
+      "taxCertificateCopy": "TAX CERTIFICATE COPY",
+      "companyNamePlaceholder": "Enter Company Name",
+      "addressPlaceholder": "Number, Building Name Street, Area City Country",
+      "address2Placeholder": "Address Line 2 (Optional)",
+      "postalCodePlaceHolder": "Postal Code (Optional)",
+      "SelectPlaceHolder": "Select",
+      "taxIdPlaceholder": "Enter Company Tax ID",
+      "employeeCountPlaceholder": "Enter Employee Count",
+      "tradeLicenseCopyPlaceholder": "Upload Trade License",
+      "taxCertificateCopyPlaceholder": "Upload Tax Certificate",
+      "companyNameContent": "  Enter the name of your company as it appears on your registered trade license.",
+      "addressContent": " Enter your company’s address as it appears on your registered trade license.",
+      "taxIdContent": "Enter your company’s 15 digit Tax ID.",
+      "employeeCountContent": "Enter the number of employees in your company.",
+      "tradeLicenseCopyContent": " Upload a copy of your company trade license in pdf or jpeg. Max file size 5 MB.",
+      "taxCertificateCopyContent": " Upload a copy of your company tax certificate in pdf or jpeg. Max file size 5 MB."
+    },
+    "companyRepresentativeForm": {
+      "fullLegalName": "FULL LEGAL NAME",
+      "jobProfile": "JOB PROFILE",
+      "phoneNumber": "PHONE NUMBER",
+      "companyEmail": "COMPANY EMAIL",
+      "employmentProof": "EMPLOYMENT PROOF",
+      "fullLegalNamePlaceholder": "Enter Full Legal Name",
+      "jobProfilePlaceholder": "Enter Job Profile",
+      "phoneNumberPlaceholder": "Enter Your Phone Number",
+      "companyEmailPlaceholder": "Enter Company Email",
+      "employmentProofPlaceholder": "Upload Employment Proof",
+      "fullLegalNameContent": "  Enter the full legal name as it appears on your valid identity proof document.",
+      "jobProfileContent": "Enter you job profile at the company.",
+      "phoneNumberContent": "A valid phone number that we can use to contact you and send you updates.",
+      "companyEmailContent": " Enter your official company email.",
+      "employmentProofContent": " Upload a copy of your company Employment letter in pdf or jpeg. Max file size 5 MB."     
+    },
+    "companyIdentityContactFrom": {
+      "profilePicture": "PROFILE PICTURE",
+      "fullName": "FULL NAME",
+      "email": "EMAIL",
+      "idDocumentType": "ID DOCUMENT TYPE",
+      "idDocumentNumber": "ID DOCUMENT NUMBER",
+      "idDocumentCopy": "ID DOCUMENT COPY",
+      "address": "ADDRESS"
+    }
+  },
+  "applicationReviewPage": {
+    "title": "Submit Application for Review.",
+    "content": "Our team will review your submission and get back to you within 24-48 hours.",
+    "modalDetail": {
+      "congratulations": " Congratulations!",
+      "paymentSuccessful": " Your payment was successful. You are all set now to start your first crowdfunding campaign on We Properties. Good Luck!",
+      "letsGo": "LET’S GO",
+      "ok": "OK",
+      "applicationSubmitted":"Your application has been submitted for review. We will update you on the status via email within 24-48 hours.",
+      "verificationSuccessful": "Verification Successful!",
+      "identityVerificationsuccessful": "Your identity verification was successful. You can proceed to make the registration fee now or save your progress and pay later.",
+      "proceedPay": "PROCEED TO PAY",
+      "savePayLater": " SAVE AND PAY LATER"
+    }
+  },
+  "teamPage": { 
+    "title": "Team",
+    "inviteUser": "Invite User",
+    "content": "Please provide the details below to add a user.",
+    "fullName": "FULL NAME",
+    "fullNamePlaceholder": "Enter full name",
+    "email": "EMAIL",
+    "emailPlaceholder": "Enter a valid email",
+    "invite": "INVITE",
+    "addTeamMembers": "Add Team Members",
+    "teamContent": "You have not added any team members yet. Add campaign managers who can help you manage your campaigns. Invite your first team mate now."
+  },
+  "notificaionsPage": { 
+    "title": "Notiifcations"
+  },
+  "supportPage": { 
+    "title": "Support",
+    "createTicket": "Create a Support Ticket.",
+    "createTicketDesc":"Send us a query and our support team will be in touch within 24-48 hours.",
+    "supportTicketSubmitted": "Support Ticket Submitted.",
+    "supportTicketContent": "Your ticket was created successfully. An email has been sent with the details of your request. Our support team will reach out to you shortly.",
+    "nav": {
+      "helpTitle": "Need Help?",
+      "helpDesc": "Create a support ticket.",
+      "contactTitle": "Contact Us.",
+      "contactDesc": "All the ways you can reach us.",
+      "questionTitle": "Have a Question?",
+      "questionDesc": "Browse frequently asked questions.",
+      "legalTitle": "Legal Information.",
+      "legalDesc": "Review terms and policies."
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+@layer base {
+  body {
+    background-color: #2C3A5C;
+  }
+}
+
+@layer utilities {
+  .stripes {
+    background: repeating-linear-gradient(
+      130deg,
+      #ffffff,
+      #ffffff 2.5px,
+      #eeeeee 2px,
+      #eeeeee 4px
+    );
+  }
+  .gradient {
+    background: transparent
+      linear-gradient(180deg, #ffffff 0%, var(---fffaf8) 100%);
+  }
+  .gradient-orange {
+    background: linear-gradient(#ff6c02, #ffffff);
+  }
+  .yellow-status {
+    @apply bg-pending text-pending border-pending;
+  }
+
+  .green-status {
+    @apply bg-success text-success border-success;
+  }
+
+  .blue-status {
+    @apply bg-incomplete text-incomplete border-incomplete;
+  }
+
+  .orange-status {
+    @apply bg-orange text-orange border-orange;
+  }
+
+  .green-prograss-bar {
+    @apply from-emerald-100 via-emerald-300 to-emerald-300;
+  }
+
+  .orange-prograss-bar {
+    @apply from-orange-100 via-orange-300 to-orange-300;
+  }
+  h1 {
+    @apply font-minion tracking-[1.5px];
+  }
+  p {
+    @apply tracking-[1.5px];
+  }
+  p {
+    @apply tracking-[1.5px];
+  }
+  .yellow {
+    background : #FFBA00;
+  }
+  .green {
+    background : #12EF90;
+  }
+  .red {
+    background : #FF5A5A;
+  }
+  .blue {
+    background : #009DFF;
+  }
+  .faint {
+    background-color: #5A6A93;
+  }
+  .white {
+    background : #FFFFFF;
+  }
+}
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #BFC5D5;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5A6A93;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #BFC5D5;
+}  
+
+
+.mapboxgl-ctrl-attrib-inner {
+  display: none !important;
+}
+.mapboxgl-canvas-container{
+  position: relative;
+  overflow: hidden;
+}
+.mapboxgl-marker{
+  position: absolute;
+  top: 0;
+}

@@ -1,0 +1,8 @@
+<svg id="user-profile-big" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="Ellipse_9" data-name="Ellipse 9" fill="#f5faff" stroke="#d4e4f2" stroke-width="0.5">
+    <circle cx="35" cy="35" r="35" stroke="none"/>
+    <circle cx="35" cy="35" r="34.75" fill="none"/>
+  </g>
+  <circle id="Ellipse_10" data-name="Ellipse 10" cx="10" cy="10" r="10" transform="translate(25 11)" fill="#d4e4f2"/>
+  <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="18" cy="12" rx="18" ry="12" transform="translate(17 35)" fill="#d4e4f2"/>
+</svg>
