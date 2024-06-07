@@ -1,0 +1,59 @@
+{
+  "LandingPage": {
+    "navbar": {
+      "invest": {
+        "title": "INVEST",
+        "to": "/invest",
+        "type": "available"
+      },
+      "sell": {
+        "title": "SELL",
+        "to": "/sell",
+        "type": ""
+      },
+      "learn": {
+        "title": "LEARN",
+        "to": "/learn",
+        "type": ""
+      },
+      "loginText": "LOGIN"
+    },
+    "footer": {
+      "address": "Address Line 1, Dubai, UAE",
+      "copyright": "Copyright © 2023. WealthPixels LLC. All Rights Reserved.",
+      "invest": "Invest",
+      "sell": "Sell",
+      "learn": "Learn",
+      "terms": "Terms of Service",
+      "policy": "Privacy Policy",
+      "keyRisks": "Key Risks",
+      "buttonEmailText": "JOIN NEWSLETTER",
+      "footerText": "WealthPixels is regulated by the Dubai Financial Services Authority (DFSA) as an Operator of a Property Investment Crowdfunding Platform. The WealthPixels platform consists of the website, web platform and mobile app. By using WealthPixels, you agree to be bound by the Terms &  Conditions, Cookie Notice and Privacy Policy. All investments through WealthPixels carry risk and are not guaranteed. Please read Key Risks before investing. WealthPixels does not have Islamic Finance endorsement from the DFSA.",
+      "inputPlaceHolder": "Enter your Email"
+    },
+    "investPage": {
+      "pageTitle": "Explore our offerings",
+      "pageDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, mi sit",
+      "available": "AVAILABLE",
+      "funded": "FUNDED",
+      "exited": "EXITED",
+      "heroSectionTitle": "This is a hero section for Investors.",
+      "heroSectionDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, mi sit amet venenatis pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt, mi sit amet venenatis pellentesque."
+    },
+    "sellPage": {},
+    "learnPage": {}
+  },
+  "PropertyCard": {
+    "availableShares": "AVAILABLE SHARES",
+    "annualizedReturn": "ANNUALIZED RETURN",
+    "annualizedAppreciatiom": "ANNUALIZED APPRECIATION",
+    "projectGrossYield": "PROJECTED GROSS YIELD",
+    "projectNetYield": "PROJECTED NET YIELD",
+    "minInvest": "Min. INV.",
+    "view": "View",
+    "loginOrRegisterText": "Login or register to view campaign details and invest.",
+    "login": "Let's Go",
+    "cardStatusAvailable": "AVAILABLE",
+    "cardStatusFunded": "FUNDED"
+  }
+}

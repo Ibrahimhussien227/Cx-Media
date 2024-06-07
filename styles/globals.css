@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-[#FFFAF8];
+  }
+}
+
+.slick-slider .slick-dots {
+  bottom: unset;
+  position: absolute;
+  top: 3%;
+}
+.slick-slider .slick-prev {
+  bottom: unset;
+  position: absolute;
+  z-index: 100;
+  left: 3%;
+}
+.slick-slider .slick-next {
+  position: absolute;
+  z-index: 100;
+  right: 3%;
+}
+.slick-slider .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white;
+}
+@layer utilities {
+  .stripes {
+    background: repeating-linear-gradient(
+      130deg,
+      #ffffff,
+      #ffffff 2.5px,
+      #eeeeee 2px,
+      #eeeeee 4px
+    );
+  }
+  .green-prograss-bar {
+    @apply from-emerald-100 via-emerald-300 to-emerald-300;
+  }
+  .orange-prograss-bar {
+    @apply from-orange-100 via-orange-300 to-orange-300;
+  }
+  h1 {
+    @apply font-minion tracking-[1.5px];
+  }
+  p {
+    @apply tracking-[1.5px];
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
